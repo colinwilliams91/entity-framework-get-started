@@ -25,6 +25,6 @@ blog.Posts.Add(
 db.SaveChanges();
 
 // Delete
-Console.WriteLine("Delete the blog");
-db.Remove(blog);
-db.SaveChanges();
+//Console.WriteLine("Delete the blog");
+//db.Remove(blog);
+//db.SaveChanges();
