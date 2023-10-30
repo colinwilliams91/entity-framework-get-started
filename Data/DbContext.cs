@@ -9,6 +9,7 @@ public class BloggingContext : DbContext
 
     public string DbPath { get; }
 
+    // the Constructor Signature parameters could receive `(DbContextOptions<BloggingContext> options) : base(options)` and pass up to the super class constructor
     public BloggingContext()
     {
         var folder = Environment.SpecialFolder.LocalApplicationData;
