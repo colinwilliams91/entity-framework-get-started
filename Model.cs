@@ -39,3 +39,18 @@ public class Post
     public int BlogId { get; set; }
     public Blog Blog { get; set; }
 }
+
+/*
+ * Run commands:
+ * ---
+ * dotnet tool install --global dotnet-ef
+ * dotnet add package Microsoft.EntityFrameworkCore.Design
+ * dotnet ef migrations add InitialCreate
+ * dotnet ef database update
+ */
+
+/*
+ * This installs `dotnet ef` and the design package which is required to run the command on a project.
+ * The `migrations` command scaffolds a migration to create the initial set of tables for the model. The
+ * `database update` command creates the database and applies the new migration to it.
+ */
