@@ -35,3 +35,12 @@ public class Post
  * The `migrations` command scaffolds a migration to create the initial set of tables for the model. The
  * `database update` command creates the database and applies the new migration to it.
  */
+
+/*
+ * added Timestamp to Blog Model -- run the following commands to sync production DB with Model (with new column in Schema):
+ * create a new migration:
+ * `dotnet ef migrations add AddBlogCreatedTimestamp`
+ * 
+ * apply migration:
+ * `dotnet ef database update`
+ */
